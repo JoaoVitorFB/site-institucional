@@ -1,0 +1,29 @@
+.form{
+    background-color: #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #d62e71;
+}
+
+.label{
+    font-size: 20px;
+    margin: 0;
+}
+
+input{
+    border: solid 2px #32b0cd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+button{
+    background-color: #d62e71;
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+}
