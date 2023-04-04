@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     margin: 0;
 }
@@ -8,6 +12,7 @@ body{
 #title{
     margin: 0;
     color: #32b0cd;
+    font-weight: 200;
 }
 
 .header{
@@ -23,7 +28,10 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    color: #32b0cd;
+}
+
+#buttonsHeader b{
+   font-weight: 1000;
 }
 
 .container{

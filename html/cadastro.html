@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style-form.css">
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 
 <body>
@@ -18,25 +18,33 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="https://google.com">Simulador</a></li>
                 <li>|</li>
-                <li><a href="#"><b>Login</b></a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#"><b>Cadastro</b></a></li>
             </ul>
         </div>
     </div>
     <div class="banner">
         <div class="container">
             <div class="form">
-                <h1>Olá de volta.</h1>
+                <h1>Bem-vindo!</h1>
+                <div class="campoIpt">
+                    <h1 class="label">Nome:</h1>
+                    <input type="text" id="ipt_nome" type="email" placeholder="Nome">
+                </div>
                 <div class="campoIpt">
                     <h1 class="label">E-mail:</h1>
-                    <input type="text" id="ipt_email" type="email" placeholder="Login">
+                    <input type="text" id="ipt_email" type="email" placeholder="meuemail@provedor.com">
                 </div>
                 <div class="campoIpt">
                     <h1 class="label">Senha:</h1>
                     <input type="text" id="ipt_senha" type="password" placeholder="**********">
                 </div>
-                <button>Entrar</button>
-            </div>  
+                <div class="campoIpt">
+                    <h1 class="label">Confirmação da Senha:</h1>
+                    <input type="text" id="ipt_confirmaSenha" type="password" placeholder="**********">
+                </div>
+                <button>Cadastrar</button>
+            </div>
         </div>
     </div>
     <div class="footer">
